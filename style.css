@@ -1,0 +1,83 @@
+*{
+    padding: 0 auto;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 35em;
+    scroll-behavior: smooth;
+}
+::selection {
+    color: #ffffff;
+    background: rgb(0, 0, 0);
+}
+img{
+    width: 100%;
+}
+embed{
+    width: 100%;
+    height: 275px;
+}
+body{
+    padding: 15px 15px 25px 15px;
+}
+hr{
+    border: 0.25px solid #eaeaea;
+}
+h1{
+    font-size: 42.5px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+h1 a{
+    text-decoration: none;
+}
+h2{
+    text-align: center;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+li a, .no-link-style{
+    text-decoration: none;
+}
+a{
+    color: #000;
+}
+.center{
+    text-align: center;
+}
+.hero-container{
+    font-size: 2.5em;
+}
+.big-text{
+    font-weight: bold;
+    color: #000; 
+}
+.small-text{
+    color: #eaeaea;
+}
+.contacto-trabajemos-text{
+    padding-top: 0.35em;
+    font-size: 2.6em;
+    text-align: center;
+}
+.contacto-email{
+    font-size: 1.7em;
+    padding-bottom: 1em !important;
+    font-weight: bold;
+}
+h1, h2, h3, h4, ul, p, 
+hr, hero-container{
+    margin: 15px 0 15px 0;
+}
+.small-red{
+    font-size: 15px;
+    color: #ff000050;
+    position: fixed;
+}
